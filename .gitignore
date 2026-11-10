@@ -1,0 +1,42 @@
+# ── Gradle / Android build output ─────────────────────────────────────────
+.gradle/
+build/
+app/build/
+app/.cxx/
+.cxx/
+.kotlin/
+
+# Local machine config (contains SDK path)
+local.properties
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.hprof
+captures/
+
+# ── Native build artifacts ────────────────────────────────────────────────
+obj/
+libs/
+*.o
+*.a
+*.so
+
+# ── Signing material — never commit ───────────────────────────────────────
+*.jks
+*.keystore
+*.p12
+keystore.properties
+
+# ── Build outputs ─────────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ── Scratch / unpacked third-party assets ─────────────────────────────────
+app/updates/
+
+# ── OS noise ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
